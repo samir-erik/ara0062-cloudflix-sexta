@@ -4,67 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CloudFlix</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style type="text/css">
+        @import url("css/estilos.css");
+    </style>    
 </head>
 <body>
-    <!--Cabecalho-->
     <header>
-        <h1>CloudFlix: Seu catalogo ficticio de filmes</h1>
-
+        <h1>CloudFlix: Seu catálogo fictício de filmes</h1>
     </header>
-    <!--Navegador-->
     <nav>
         <a href="index.html">Home</a>
-        <b>Catalago</b>
-        <a href="sac.html">Sac</a>
-        <a href="equipe.html">Equipe</a>
+        <b>Catálogo</b>
+        <a href="sac.html">SAC</a>
+        <a id="nav-equipe" href="equipe.html">Equipe</a>
     </nav>
-    <!--Conteudo Principal-->
     <main>
-        <h2>catalogo de filmes</h2>
-
-        <p>
-            Desfrute do nosso catálogo imenso de filmes extraordinarios
-        </p>
-
-        <table border="">
+        <h2>Catálogo de filmes</h2>
+        <p>Desfrute desse catálogo imenso de filmes extradionários</p>
+        <table border="1">
             <thead>
                 <tr>
                     <th>Cartaz</th>
-                    <th>Titulo</th>
-                    <th>Genero</th>
+                    <th>Título</th>
+                    <th>Gênero</th>
                 </tr>
             </thead>
-
             <tr>
-                <td><img src="imagens/interstellar.webp" alt="Cartaz do Filme Interestelar" width="150px"></td>
-                <td>Interestelar</td>
-                <td>Ficção-Fientifica</td>
+                <td><img src="img/interstellar.webp" 
+                         alt="Cartaz do filme Interstellar"
+                         width="70"></td>
+                <td>Interstellar</td>
+                <td>Ficção-Científica</td>
             </tr>
-
             <tr>
-                <td><img src="imagens/homem-aranha.webp" alt="Cartaz do Filme homem-aranha" width="150px"></td>
-                <td>homem-aranha</td>
+                <td><img src="./img/homem-aranha.webp" 
+                         alt="Cartaz do filme Homem-Aranha"
+                         width="70"></td>
+                <td>Homem-Aranha</td>
                 <td>Ação</td>
             </tr>
-
             <tr>
-                <td><img src="imagens/spm.webp" alt="Cartaz do Filme Sociedade dos Poetas Mortos" width="150px"></td>
+                <td><img src="img/spm.webp" 
+                         alt="Cartaz do filme Sociedade dos Poetas Mortos"
+                         width="70"></td>
                 <td>Sociedade dos Poetas Mortos</td>
                 <td>Drama</td>
-            </tr>
-            
-
+            </tr>                        
         </table>
-
     </main>
-
-    <!--RODAPE-->
-
-    <footer>
+    <footer class="texto-do-rodape">
         <p>© 2025 CloudFlix. Todos os direitos reservados.</p>
 
         <p>Este projeto é uma ferramenta educacional e não comercial. As informações e imagens de filmes são utilizadas para fins de demonstração, aprendizado e ilustração de conceitos de desenvolvimento web.</p>
     </footer>
-
 </body>
 </html>

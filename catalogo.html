@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,9 @@
 
     <style type="text/css">
         @import url("css/estilos.css");
-    </style>    
+    </style>
 </head>
+
 <body>
     <header>
         <h1>CloudFlix: Seu catálogo fictício de filmes</h1>
@@ -23,41 +25,37 @@
     <main>
         <h2>Catálogo de filmes</h2>
         <p>Desfrute desse catálogo imenso de filmes extradionários</p>
-        <table border="1">
+
+        <table border="1" id="tabela-catalogo">
+
             <thead>
+
                 <tr>
+
                     <th>Cartaz</th>
+
                     <th>Título</th>
+
                     <th>Gênero</th>
+
                 </tr>
+
             </thead>
-            <tr>
-                <td><img src="imagens/interstellar.webp" 
-                         alt="Cartaz do filme Interstellar"
-                         width="70"></td>
-                <td>Interstellar</td>
-                <td>Ficção-Científica</td>
-            </tr>
-            <tr>
-                <td><img src="imagens/homem-aranha.webp" 
-                         alt="Cartaz do filme Homem-Aranha"
-                         width="70"></td>
-                <td>Homem-Aranha</td>
-                <td>Ação</td>
-            </tr>
-            <tr>
-                <td><img src="imagens/spm.webp" 
-                         alt="Cartaz do filme Sociedade dos Poetas Mortos"
-                         width="70"></td>
-                <td>Sociedade dos Poetas Mortos</td>
-                <td>Drama</td>
-            </tr>                        
+
+            <tbody id="corpo-tabela-filmes">
+
+            </tbody>
+
         </table>
+
     </main>
     <footer class="texto-do-rodape">
         <p>© 2025 CloudFlix. Todos os direitos reservados.</p>
 
-        <p>Este projeto é uma ferramenta educacional e não comercial. As informações e imagens de filmes são utilizadas para fins de demonstração, aprendizado e ilustração de conceitos de desenvolvimento web.</p>
+        <p>Este projeto é uma ferramenta educacional e não comercial. As informações e imagens de filmes são utilizadas
+            para fins de demonstração, aprendizado e ilustração de conceitos de desenvolvimento web.</p>
     </footer>
+    <script src="js/catalogo.js"></script>
 </body>
+
 </html>

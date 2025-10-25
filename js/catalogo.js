@@ -1,6 +1,6 @@
 const tabelaCorpo = document.getElementById('corpo-tabela-filmes');
 
-const urlDados = 'data/catalogo.json';
+const urlDados = './data/catalogo.json';
 
 
 function carregarCatalogoJSON() {
